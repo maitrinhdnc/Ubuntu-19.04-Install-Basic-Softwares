@@ -24,7 +24,7 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 
 <h3>Update Python 3.8  <a href="https://www.itsupportwale.com/blog/how-to-upgrade-to-python-3-8-on-ubuntu-18-04-lts/">Link</a>
 </h3>
-<p>Follow the link above </p>
+<p>Follow all steps of the link above</p>
 <p>While installing this command:</p>
 <pre>sudo add-apt-repository ppa:deadsnakes/ppa</pre>
 If there is error message:
@@ -33,8 +33,8 @@ ERROR: '~deadsnakes' user or team does not exist.</i></pre>
 Just fix it by adding '':
 <pre>sudo add-apt-repository 'ppa:deadsnakes/ppa'</pre>   
 
-<h3>Fix: ModuleNotFoundError: No module named 'apt_pkg'</h3>
-<a href="https://stackoverflow.com/questions/13708180/python-dev-installation-error-importerror-no-module-named-apt-pkg">Link</a>
+<h3>Fix: ModuleNotFoundError: No module named 'apt_pkg' <a href="https://stackoverflow.com/questions/13708180/python-dev-installation-error-importerror-no-module-named-apt-pkg">Link</a>
+</h3>
 <pre>cd /usr/lib/python3/dist-packages
 ls (copy the right name of "apt_pkg")
 sudo ln -s apt_pkg.cpython-36m-x86_64-linux-gnu.so apt_pkg.so</pre>
