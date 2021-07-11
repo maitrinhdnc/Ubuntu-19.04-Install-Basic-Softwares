@@ -13,7 +13,11 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 </pre>
 
 <h3>Install Git</h3>
+<p>Download</p>
 <pre>sudo apt install git</pre>
+<p>Check version</p>
+<pre>git --version</pre>
+
 
 <h3>Install Unikey</h3> 
 <a href="https://github.com/teni-ime/ibus-teni">Link Reference</a>
