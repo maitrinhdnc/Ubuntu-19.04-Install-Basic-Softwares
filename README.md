@@ -51,7 +51,7 @@ E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend),
 ibus restart
 </pre>
 
-<p> Beside that, I also install some softwares which already have in Software Ubuntu such as: 
+<p> Beside that, I also installed some softwares which are already had in Software Ubuntu such as: 
  <i>Visual Studio, Sublime Text, Slack, ...</i>
 </p>
 
