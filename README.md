@@ -33,6 +33,13 @@ ERROR: '~deadsnakes' user or team does not exist.</i></pre>
 Just fix it by adding '':
 <pre>sudo add-apt-repository 'ppa:deadsnakes/ppa'</pre>   
 
+<h3>Fix: Ubuntu 19.04 wont open terminal after Python 3.8.0 install</h3>
+<ol>
+ <li>Install <code>Xterm</code> from Ubuntu Software</li>
+ <li><code>sudo update-alternatives --config python3</code></li>
+ <li>Choose "python3.7" as a default</li> 
+</ol>
+
 <h3>Fix: ModuleNotFoundError: No module named 'apt_pkg' <a href="https://stackoverflow.com/questions/13708180/python-dev-installation-error-importerror-no-module-named-apt-pkg">Link</a>
 </h3>
 <pre>cd /usr/lib/python3/dist-packages
