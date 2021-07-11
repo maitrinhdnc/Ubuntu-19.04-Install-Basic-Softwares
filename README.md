@@ -33,10 +33,10 @@ ERROR: '~deadsnakes' user or team does not exist.</i></pre>
 Just fix it by adding '':
 <pre>sudo add-apt-repository 'ppa:deadsnakes/ppa'</pre>   
 
-<h3>Fix: Ubuntu 19.04 wont open terminal after Python 3.8.0 install</h3>
+<h3>Fix: Ubuntu 19.04 won't open terminal after Python 3.8.0 install</h3>
 <ol>
  <li>Install <code>Xterm</code> from Ubuntu Software</li>
- <li><code>sudo update-alternatives --config python3</code></li>
+ <li>Type <code>sudo update-alternatives --config python3</code></li>
  <li>Choose "python3.7" as a default</li> 
 </ol>
 
