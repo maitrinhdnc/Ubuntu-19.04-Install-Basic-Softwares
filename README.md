@@ -24,6 +24,7 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 
 <h3>Update Python 3.8  <a href="https://www.itsupportwale.com/blog/how-to-upgrade-to-python-3-8-on-ubuntu-18-04-lts/">Link</a>
 </h3>
+<p>Follow the link above </p>
 <p>While installing this command:</p>
 <pre>sudo add-apt-repository ppa:deadsnakes/ppa</pre>
 If there is error message:
