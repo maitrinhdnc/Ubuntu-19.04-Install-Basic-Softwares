@@ -27,9 +27,9 @@ sudo apt-get install ibus-teni
 ibus restart
 </pre>                                                                                                                               
 While installing, if there is error message:
-<span><i>E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)  
+<pre><i>E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)  
 E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend),   
- is another process using it?</i></span>
+ is another process using it?</i></pre>
  
 <p>Then write command: </p>
 <pre>sudo killall apt apt-get</pre>   
