@@ -32,6 +32,11 @@ ERROR: '~deadsnakes' user or team does not exist.</i></pre>
 Just fix it by adding '':
 <pre>sudo add-apt-repository 'ppa:deadsnakes/ppa'</pre>   
 
+<h3>Fix: ModuleNotFoundError: No module named 'apt_pkg'</h3>
+<a href="https://stackoverflow.com/questions/13708180/python-dev-installation-error-importerror-no-module-named-apt-pkg">Link</a>
+<pre>cd /usr/lib/python3/dist-packages
+ls (copy the right name of "apt_pkg")
+sudo ln -s apt_pkg.cpython-36m-x86_64-linux-gnu.so apt_pkg.so</pre>
 
 <h3>Install Unikey <a href="https://github.com/teni-ime/ibus-teni">Link</a>
 </h3> 
