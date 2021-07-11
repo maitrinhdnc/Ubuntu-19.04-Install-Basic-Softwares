@@ -1,6 +1,6 @@
 # Ubuntu_Basic_Software
 
-<h3>Fix: "Error Unable Update Ubuntu 19.04"</h3>
+<h3>Fix: "Error Unable to 'apt update' my Ubuntu 19.04"</h3>
 <a href="https://www.digitalocean.com/community/questions/unable-to-apt-update-my-ubuntu-19-04">Link Reference</a> 
 <pre>sudo sed -i -re 's/([a-z]{2}\.)?archive.ubuntu.com|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
 sudo apt-get update && sudo apt-get dist-upgrade
@@ -13,7 +13,7 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 </pre>
 
 <h3>Install Git</h3>
-<p>Download</p>
+<p>Download Git</p>
 <pre>sudo apt install git</pre>
 <p>Check version</p>
 <pre>git --version</pre>
@@ -30,9 +30,18 @@ While installing, if there is error message:
 <pre><i>E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)  
 E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend),   
  is another process using it?</i></pre>
- 
 <p>Then write command: </p>
 <pre>sudo killall apt apt-get</pre>   
+<p>Uninstall Software</p>
+<pre>sudo apt remove ibus-teni
+ibus restart
+</pre>
+
+<p> Beside that, I also install some softwares which already have in Software </p>
 
 
-    
+ <h3>Comment</h3>
+ 
+ 
+ 
+ 
