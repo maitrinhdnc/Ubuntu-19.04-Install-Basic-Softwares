@@ -22,6 +22,11 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 <p>Check version</p>
 <pre>git --version</pre>
 
+<h3>Install Jupyter Notebook</h3>
+<p>Download Git: <code>sudo apt-get install jupyter-notebook</code></p>
+<p>Run: <code> jupyter notebook </code></p>
+
+
 <h3>Update Python 3.8  <a href="https://www.itsupportwale.com/blog/how-to-upgrade-to-python-3-8-on-ubuntu-18-04-lts/">Link</a>
 </h3>
 <p>Follow all steps of the link above</p>
