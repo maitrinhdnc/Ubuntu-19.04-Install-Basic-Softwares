@@ -10,23 +10,28 @@
 sudo apt-get update && sudo apt-get dist-upgrade
 </pre>
 
-<h3>Install Google Chrome  <a href="https://linuxize.com/post/how-to-install-google-chrome-web-browser-on-ubuntu-18-04/">Link</a>
+<h3>Install "Google Chrome"  <a href="https://linuxize.com/post/how-to-install-google-chrome-web-browser-on-ubuntu-18-04/">Link</a>
 </h3>
 <pre>wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
 </pre>
 
-<h3>Install Git</h3>
+<h3>Install "Git"</h3>
 <p>Download Git</p>
 <pre>sudo apt install git</pre>
 <p>Check version</p>
 <pre>git --version</pre>
 
-<h3>Install Jupyter Notebook</h3>
+<h3>Install "Jupyter Notebook"</h3>
 <p>Download Git: <code>sudo apt-get install jupyter-notebook</code></p>
 <p>Run: <code> jupyter notebook </code></p>
 
 
+<h3>Install "Play On Linux" (applications: office, internet, educations, games,...</h3>
+<p><code>sudo apt install winbind</code></p>
+<p><code> sudo apt install playonlinux</code></p>
+ 
+ 
 <h3>Update Python 3.8  <a href="https://www.itsupportwale.com/blog/how-to-upgrade-to-python-3-8-on-ubuntu-18-04-lts/">Link</a>
 </h3>
 <p>Follow all steps of the link above</p>
@@ -51,7 +56,7 @@ Just fix it by adding '':
 ls (copy the right name of "apt_pkg")
 sudo ln -s apt_pkg.cpython-36m-x86_64-linux-gnu.so apt_pkg.so</pre>
 
-<h3>Install Unikey <a href="https://github.com/teni-ime/ibus-teni">Link</a>
+<h3>Install "Unikey" <a href="https://github.com/teni-ime/ibus-teni">Link</a>
 </h3> 
 <pre>sudo add-apt-repository ppa:teni-ime/ibus-teni
 sudo apt-get update
