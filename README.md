@@ -74,6 +74,14 @@ E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend),
 ibus restart
 </pre>
 
+<h3>Ip Address</h3>
+<ol>
+  <li>If you prefer to get minimal details, you can also use hostname:<code>hostname -I </code></li>
+  <li>It will show you both IPv4 and IPv6 addresses: <code>ip a </code></li>
+  <li>Same: <code>ip add</li>
+</ol>
+<img src="https://i1.wp.com/itsfoss.com/wp-content/uploads/2019/08/ip_addr_show.png?w=800&ssl=1">
+
 <p> Beside that, I also installed some softwares which are already had in Software Ubuntu such as: 
  <i>Visual Studio, Sublime Text, Slack, ...</i>
 </p>
