@@ -88,10 +88,10 @@ ibus restart
 
 <h3> </h3>
  <p>try <code>aptitude</code> instead of <code>apt-get</code><p>
- <pre>
-  sudo apt-get install aptitude
-  sudo aptitude install <package-name> 
- </pre>
+
+  <code>sudo apt-get install aptitude</code>
+  <code>sudo aptitude install <package-name> </code>
+
  
  <h3>Comment</h3>
  
