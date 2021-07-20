@@ -86,7 +86,13 @@ ibus restart
  <i>Visual Studio, Sublime Text, Slack, ...</i>
 </p>
 
-
+<h3> </h3>
+ <p>try <code>aptitude</code> instead of <code>apt-get</code><p>
+ <pre>
+  sudo apt-get install aptitude
+  sudo aptitude install <package-name> 
+ </pre>
+ 
  <h3>Comment</h3>
  
  
