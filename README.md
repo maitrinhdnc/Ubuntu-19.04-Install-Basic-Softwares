@@ -1,4 +1,4 @@
-# Ubuntu 19.04_Basic_Softwares
+# Ubuntu Install Software
 
 <strong>Note: I just want to share somethings in Ubuntu 19.04 which are worked with me</strong>
 <p>If you cannot install the latest version of Ubuntu, try to instsall the <strong>lower version</strong></p>
